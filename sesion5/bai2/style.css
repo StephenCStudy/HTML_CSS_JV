@@ -1,0 +1,32 @@
+h1{ 
+    background-color: black;
+    color: white;
+}
+b{
+    background-color: black;
+    color: yellow;
+    text-decoration: underline dotted white ;
+}
+body{
+    background-color: black;
+}
+.img1{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+.img2{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}
+.img3{
+    align-items: center;
+    display: flex;
+    justify-content: left;
+}
+.img4{
+    align-items: center;
+    display: flex;
+    justify-content: right;
+}

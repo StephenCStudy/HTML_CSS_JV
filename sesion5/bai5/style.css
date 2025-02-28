@@ -1,0 +1,17 @@
+.Example{
+    background-color: #fff8dc;
+    padding: 15px;
+    border-left: 10px solid #f4c542;
+    font-family: monospace;
+}
+h1{
+    color: blue;
+    text-align: left;
+    font-family: sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    line-height: 1.6;
+}

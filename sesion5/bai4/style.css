@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+}
+.news-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background: #fff;
+    padding: 15px;
+}
+.news-image img {
+    width: 200px;
+    border-radius: 8px;
+}
+.news-content {
+    margin-left: 15px;
+}
+.news-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.news-meta {
+    color: gray;
+    font-size: 14px;
+}
+.news-description {
+    font-size: 14px;
+    margin-top: 5px;
+}
