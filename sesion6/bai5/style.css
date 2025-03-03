@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: goldenrod; /* Reverted background color */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: none;
+    margin: none;
+}
+#logo{
+    font-size: 14px;
+    margin-left: 20px;
+    padding: none;
+    margin: none;
+    color: white;
+}
+.home{
+    font-size: 14px;
+    margin-right: 20px;
+    color: white;
+}
+.content{
+    padding: none;
+    margin: none;
+    text-align: center;
+    background-color:aliceblue; /* Reverted background color */
+    height: 120px;
+}
+button{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.feature-container { /* Added styles for feature container */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.feature {
+    margin: 0 10px;
+    border: 1px solid white; /* Added border */
+    padding: 3px;
+    flex: 1; /* Ensure features are evenly distributed */
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
