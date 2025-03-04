@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding */
+    background-color: #eeedf2;
+    height: 100vh; /* Ensure full viewport height */
+}
+.component {
+    width: 300px;
+    height: 150px;
+    margin: 20px auto; /* Center the component and add margin */
+    text-align: center;
+    background-color: white;
+    border: 1px solid #c5c1d4;
+    border-radius: 5px;
+}
+.component h2 {
+    margin: 10px;
+    color: #bc2229;
+}
+.component p {
+    color: #231651;
+}
+.more-component {
+    display: flex; /* Arrange children horizontally */
+    justify-content: center;
+    width: 100%; /* Full width */
+}
+.more-component .component {
+    width: 300px;
+    height: 160px;
+    margin: 20px; /* Margin between components */
+    text-align: center;
+    background-color: white;
+    border: 1px solid #c5c1d4;
+    border-radius: 5px;
+}

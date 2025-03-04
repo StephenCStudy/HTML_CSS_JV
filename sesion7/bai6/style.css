@@ -1,0 +1,40 @@
+.container{
+    border: 1px solid #e1e5e9;
+    border-radius: 5px;
+    max-width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 20px;
+    padding: 0;
+    margin: 0;
+}
+hr{
+    padding-left: 0;
+}
+#item02{
+    background-color: #d0e2ff;
+}
+#item01,#item02,#item03{
+    padding: 20px;
+}
+#item01,#item02,#item03,#content{
+    margin-left: 10px;
+}
+#color{
+    color: #d73a88;
+}
+#arrow-up,#arrow-down{
+    margin-left: 650px;
+    cursor: pointer;
+}
+#arrow-up:hover{
+    color:blue;
+}
+#arrow-down:hover{
+    color:aquamarine;
+}
+#content:hover{
+    background-color: #e1e5e9;
+}
+#item01:hover,#item02:hover,#item03:hover{
+    color: blueviolet;
+}

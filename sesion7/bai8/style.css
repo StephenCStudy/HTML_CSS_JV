@@ -1,0 +1,56 @@
+.container{
+    border: 1px solid #e3e5ec;
+    border-radius: 10px;
+    background-color: white;
+    max-width: 30%;
+    margin: 100px;
+}
+body{
+    background-color: #f5f7fa;
+    font-family: 'Times New Roman', Times, serif;
+}
+#list{
+    margin-left: 350px;
+}
+.container h2, .container p {
+    margin-left: 20px;
+    
+}
+#marks{
+    background-color: #ffeeca;
+    border: 2px solid #ffcc85;
+    border-radius: 5px;
+    margin-right: 330px;
+}
+#monsters{
+    color: #3976ff;
+}
+#percent{
+    position: absolute;
+    top: 275px;
+    left: 500px;
+}
+#color02{
+    color: #555e78;
+}
+#color01{
+    color: #383e50;
+}
+#percent-line{
+    background: linear-gradient(to right, #e57809 0%, #e57809 326px, #ffeeca 250px, #ffeeca 110px); /* Gradient effect */
+    border-radius: 5px; /* Set the border radius */
+    width: 400px; /* Set the total width */
+    height: 5px; /* Set the height */
+}
+.img #img01, .img #img02{
+    border: 120px;
+    border-radius: 50%; /* Make the image circular */
+    width: 64px; /* Set the width */
+    height: 64px; /* Set the height */
+    margin-left: 16px;
+}
+.img #img02{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}

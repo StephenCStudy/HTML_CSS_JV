@@ -1,0 +1,76 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2025/02/09/16/57/blue-throated-toucanet-9394818_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 55%;
+    
+}
+.container{
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 50%;
+    height: 300px; /* Adjusted height to reduce bottom space */
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+}
+h2{
+    margin-left: 10px;
+}
+.container label, .container p, .container textarea{
+    margin-left: 10px;
+}
+input, textarea {
+    width: calc(100% - 20px); /* Full width minus padding */
+    margin-left: 10px;
+    margin-right: 10px;
+    box-sizing: border-box; 
+}
+p {
+    display: flex;
+    align-items: center;
+}
+p input {
+    border: 1px solid black;
+    border-left: none;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 2.1px;
+    margin-left: 0; 
+}
+p::before {
+    content: "@mdo";
+    display: inline-block;
+    padding: 1px;
+    border: 1px solid black;
+    border-right: none;
+    height: calc(100% - 2px); 
+    box-sizing: border-box;
+    margin-right: 0; 
+}
+.btn{
+    margin-left: 550px;
+}
+#btn02{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+#btn01{
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fa-xmark{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+}
