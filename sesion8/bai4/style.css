@@ -1,0 +1,57 @@
+h2 {
+    border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 160px;
+    margin: 0px;
+    display: block;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    vertical-align: middle;
+}
+
+th {
+    padding: 10px;
+}
+
+.box {
+    color: #f56a6a;
+    padding: 30px;
+    opacity: 50%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #f56a6a;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+
+.content01, .content02, .content03, .content04 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+i{
+    transform: scale(2);
+}
