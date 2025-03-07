@@ -1,0 +1,33 @@
+.header{
+    background-color: #3498db;
+    margin-bottom: 20px;
+    display: flex;
+}
+.footer{
+    background-color: #9b59b6;
+    margin-top: 20px;
+    display: flex;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    align-items: stretch;
+}
+p{
+    margin-left: 10px;
+    padding: 1px;
+}
+main{
+    display: flex;
+}
+.sidebar{
+    background-color: #2ecc71;
+    padding-bottom: 500px;
+    width: 25%;
+}
+.content{
+    background-color: #e74c3c;
+     display: flex;
+    margin-left: 20px;
+    flex-grow: 1;
+}

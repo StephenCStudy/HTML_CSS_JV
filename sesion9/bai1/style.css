@@ -1,0 +1,25 @@
+.box{
+    background-color: #3498db;
+    width: 70px;
+    height: 70px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    border: 5px solid black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    text-align: center;
+    color: white;
+    margin-top: 25px;
+}
+.box:hover{
+   background-color:black;
+}

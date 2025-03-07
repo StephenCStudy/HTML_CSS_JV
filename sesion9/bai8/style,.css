@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    padding: 20px;
+}
+a{
+   margin-top: 5px;
+   text-decoration: none; 
+   color: white;  
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.content01{
+  color: black;
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px;
+}
+.content01 h2{
+    margin: 20px;
+}
+button{
+    padding: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: #333333;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+.content02{
+    justify-content: space-between;
+    text-align: center;
+    margin: 70px;
+}
+.content02 h2{
+    margin-bottom: 30px;
+}
+.box1,.box2,.box3,.box4{
+    width: 150px;
+    height: 150px;
+    background-color: #cccccc;
+    text-align: center;
+
+}
+#size{
+    margin-top: 70px;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    
+}
+.project{
+    margin-top: 10px;
+    justify-content: center;
+    gap:120px;
+    display: flex;
+}
+.content03{
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+.content03 h2{
+    margin: 10px;
+}
+footer{
+    background-color: #333333;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: blanchedalmond;
+}

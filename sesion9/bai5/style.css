@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #f1f1f1;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.line1, .line2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8{
+    background-color: #800880;
+    height: 50px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.box7{
+    margin-right: 660px;
+}
