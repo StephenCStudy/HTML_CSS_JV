@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 10px auto;
+    gap: 20px;
+}
+
+.section {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.section1 {
+    background-color: #fff; /* Giữ background trắng */
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 20%; /* Đặt chiều rộng cố định để khớp với các section khác */
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.news-card {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.news-card img {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.section .img-col {
+    display: flex;
+    flex-direction: column; /* Đặt các hình ảnh theo hàng ngang */
+    gap: 30px; /* Khoảng cách giữa các hình ảnh */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.section .img-col img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#btn{
+    background-color: #b8c2ce;
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Căn giữa nội dung text theo chiều dọc */
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.section.recent-news {
+    display: flex; /* Sử dụng flex để đặt img-col và text song song */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 20px; /* Tăng padding để có không gian */
+}
+
+.news-content {
+    background-color: #f9e79f;
+    padding: 10px;
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    position: relative;
+    top: 240px;
+    left: -207px;
+}
+
+.news-content p {
+    margin: 0;
+    font-size: 14px;
+    color: white;
+}
+
+.news-content h3 {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: white;
+}
+
+.news-list button {
+    background-color: #b8c2ce;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.news-list button:hover {
+    background-color: #ccc;
+}
+
+table {
+    width: 120%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+table td img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
