@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+    margin-left: -500px;
+}
+*{
+    margin-left: 20px;
+}
+.form-control{
+    width: 50vw !important;
+}
+.flex-nowrap{
+    max-width: fit-content;
+}
+.btn-primary{
+    margin-left: 20px;
+}
+.form-label{
+    margin-left: -1px;
+}

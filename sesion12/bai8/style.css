@@ -1,0 +1,37 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+    font-size: 0.75rem;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.form-control::placeholder {
+    font-style: italic;
+    color: #adb5bd;
+}
+
+h5 {
+    font-weight: bold;
+}
+.box{
+    display: flex;
+    gap: 40px;
+}
+#cvv{
+    width: 200px;
+    margin-left: -100px;
+}
+#expiration{
+    width: 300px;
+}
+.my-5{
+    max-width: 900px;
+}
+#nameOnCard,#cardNumber{
+    width: 400px;
+}

@@ -1,0 +1,31 @@
+*{
+    max-width: 50vw;
+    margin-left: 20px;
+    max-height: 60vh;
+}
+body{
+    background-color: #7f7f7f;
+}
+
+nav{
+    margin-top: 20px;
+    display: flex;
+}
+.btn-success{
+    margin-left: 20px;
+}
+.btn-close{
+    margin-top: 10px;
+    margin-left: 300px;
+}
+label{
+    margin-left: 2px;
+}
+input{
+    max-width: 45vw;
+}
+.container{
+  background-color: white;
+  border-radius: 20px;
+  border: 1px solid white;
+}

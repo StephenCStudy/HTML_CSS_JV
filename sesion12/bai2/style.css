@@ -1,0 +1,10 @@
+body{
+    margin-top: 15vw;
+    margin-left: 35vw;
+}
+.form-control{
+    max-width: 30vw;
+}
+button{
+    margin-top: -15px;
+}

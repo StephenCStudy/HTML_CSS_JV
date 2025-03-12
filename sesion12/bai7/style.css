@@ -1,0 +1,31 @@
+.bg-purple {
+    background-color: purple;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card {
+    height: 300px; 
+}
+
+.card-img {
+    height: 100%; 
+    object-fit: cover; 
+}
+.text-white1{
+    margin-top: 60px;
+    font-size: 32px;
+    color: white;
+}
+.text-white{
+    margin-top: 100px;
+}
+.text-white2{
+    color: white;
+    margin-top: 130px;
+}
