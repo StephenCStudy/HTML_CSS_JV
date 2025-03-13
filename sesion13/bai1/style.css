@@ -1,0 +1,180 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+color: #333;
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.header {
+width: 100%;
+background-color: #fff;
+box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header-content {
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 70px;
+}
+
+.logo {
+font-weight: 600;
+font-size: 1.5rem;
+color: #2c2c2c;
+}
+
+.nav-list {
+list-style: none;
+display: flex;
+gap: 2rem;
+}
+
+.nav-list li a {
+text-decoration: none;
+color: #333;
+font-weight: 500;
+transition: color 0.3s;
+}
+
+.nav-list li a:hover {
+color: #50bfa0; 
+}
+
+.header-icons {
+display: flex;
+gap: 1.5rem;
+}
+
+.header-icons a {
+text-decoration: none;
+color: #333;
+font-size: 1.2rem;
+}
+
+.material-icons {
+font-size: 24px;
+vertical-align: middle;
+}
+
+.hero {
+padding: 4rem 0;
+background-color: #fafafa;
+}
+
+.hero-content {
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 2rem;
+}
+
+.hero-text {
+flex: 1 1 500px;
+text-align: center;
+}
+
+.hero-text h1 {
+font-size: 2.5rem;
+font-weight: 700;
+line-height: 1.2;
+margin-bottom: 1rem;
+}
+
+.hero-text p {
+font-size: 1rem;
+margin-bottom: 1.5rem;
+color: #555;
+max-width: 500px;
+margin-left: 330px;
+}
+
+
+.search-bar {
+display: flex;
+width: 100%;
+max-width: 400px;
+border: 1px solid #ccc;
+border-radius: 6px;
+overflow: hidden;
+position: absolute;
+left: 550px;
+}
+
+.search-bar input {
+flex: 1;
+padding: 0.75rem 1rem;
+border: none;
+outline: none;
+font-size: 1rem;
+}
+
+.search-bar button {
+background-color: #3b826f; 
+color: #fff;
+border: none;
+padding: 0 1.25rem;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.search-bar button:hover {
+background-color: #50bfa0;
+}
+
+.hero-image {
+flex: 1 1 1200px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero-image img {
+max-width: 100%;
+height: auto;
+border-radius: 8px;
+}
+
+.benefits {
+padding: 3rem 0;
+background-color: #fff;
+}
+
+.benefits h2 {
+font-size: 2rem;
+margin-bottom: 1rem;
+font-weight: 600;
+}
+
+.benefits p {
+font-size: 1rem;
+color: #555;
+}
+
+.footer {
+background-color: #f1f1f1;
+padding: 1rem 0;
+text-align: center;
+}
+
+.footer p {
+font-size: 0.9rem;
+color: #777;
+}
+
+.arrow{
+position:absolute;
+top: 280px;
+left: 400px;
+transform: rotate(-20deg);
+}
