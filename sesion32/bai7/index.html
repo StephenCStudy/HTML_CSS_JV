@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .thumbnail {
+      width: 100px;
+      cursor: pointer;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      visibility: hidden;
+    }
+
+    .overlay img {
+      max-width: 90%;
+      max-height: 90%;
+    }
+
+    .overlay.active {
+      visibility: visible;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://th.bing.com/th/id/OIF.P8kz3eLkhT53vNL54qvXhA?w=253&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="thumbnail" alt="Thumbnail" id="thumbnail">
+  <div class="overlay" id="overlay">
+    <img src="https://th.bing.com/th/id/OIF.P8kz3eLkhT53vNL54qvXhA?w=253&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Large Image">
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
