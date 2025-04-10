@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /* input[type="password"] {
+            width: 300px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        } */
+         span {
+            margin-left: 10px;
+            font-size: 16px;
+            color: blue;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form action="nowhere" method="post">
+        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+        <span id="togglePassword" style="cursor: pointer;">See</span>
+
+    </form>
+    <script src="./main.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1 {
+    color: #0078d7;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 10px;
+}
+
+button {
+    background-color: #0078d7;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #005a9e;
+}
+
+.input {
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    margin: 20px auto;
+    padding: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.element span {
+    transform: scale(5);
+    margin-right: 120px;
+}
+
+.element #do {
+    font-size: 40px;
+    margin-left: -50px;
+}
+
+#sup {
+    font-size: 40px;
+    margin-left: -300px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    .input {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    select, button {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .element {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .element span {
+        margin: 0;
+        transform: scale(3);
+    }
+
+    .element #do {
+        margin: 10px 0;
+    }
+
+    .about {
+        margin-left: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    #sup {
+        font-size: 28px;
+        margin: 0;
+    }
+}
