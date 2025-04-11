@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .container {
+            display: flex;
+            margin-top: 50px;
+            margin-left: 200px;
+            justify-self: center;
+        }
+
+        .container form {
+            display: flex;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            gap: 20px;
+        }
+
+        .container form input {
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .container form select {
+            width: 200px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        table{
+            margin-top: 50px;
+            width: 80%;
+            border-collapse: collapse;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Task Management</h2>
+    <div class="container">
+        <form action="nowhere" method="post">
+            <input type="text" id="content" placeholder="Content">
+            <input type="date" id="dueDate">
+            <select name="no" id="select">
+                <option value="Choose status">Choose status</option>
+                <option value="pending">pending</option>
+                <option value="stop">stop</option>
+                <option value="Waiting">Waiting</option>
+                <option value="No option">No option</option>
+            </select>
+            <input type="text" id="name" placeholder="Username">
+            <button type="button" class="btn btn-primary" id="btn">Submit</button>
+        </form>
+
+
+    </div>
+    <table class="table table-striped table-hover">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Content</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>Assigend to</th>
+                <th colspan="2">Action</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            
+        </tbody>
+    </table>
+
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

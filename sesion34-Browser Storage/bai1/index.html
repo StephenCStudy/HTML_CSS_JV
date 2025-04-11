@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 150px;
+            width: 500px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            gap: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+        </div>
+
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="pass" class="form-control" aria-describedby="passwordHelpBlock" placeholder="Enter your password">
+
+        <div class="mb-3 row">
+            <label for="inputPassword" class=" col-form-label">confirm Password</label>
+            <div class="col-sm-12">
+                <input type="password" class="form-control" id="confirm" placeholder="Confirm your password">
+            </div>
+        </div>
+
+        <button type="button" class="btn btn-primary col-sm-12" id="submit">Register</button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
